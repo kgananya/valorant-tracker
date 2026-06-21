@@ -4,14 +4,14 @@ A full-stack VALORANT stats tool that helps you make smarter agent picks by show
 
 ## What it does
 - Log in with your Riot ID (name + tag)
-- See all agents you've played recently (past 10 matched with free API key) with win rates
+- See all agents you've played recently with win rates
 - Click an agent to see your win rate and KDA broken down by map
 - Helps you answer "which agent should I pick on this map?" based on your own data
 
 ## Tech Stack
-Frontend: React
-Backend: Python
-API: Henrik's Unofficial VALORANT API
+- **Frontend:** React
+- **Backend:** Python
+- **API:** Henrik's Unofficial VALORANT API
 
 ## Setup
 
@@ -36,10 +36,10 @@ Get a free API key from their Discord and add it to:
 - `valorant-tracker/api/henrik.py` → `API_KEY = "your-key-here"`
 
 ## Roadmap
-MongoDB integration for match history caching
-Track win rate trends over time
-Economy analysis (buy vs save decisions per round)
-Win probability predictor using match data
+- [ ] MongoDB integration for match history caching
+- [ ] Track win rate trends over time
+- [ ] Economy analysis (buy vs save decisions per round)
+- [ ] Win probability predictor using match data
 
 ## Why I built this
 I play VALORANT and wanted a tool that gives personalized agent recommendations based on my own stats rather than generic tier lists.
